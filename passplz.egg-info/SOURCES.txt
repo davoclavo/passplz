@@ -1,0 +1,8 @@
+setup.cfg
+setup.py
+bin/passplz
+passplz/__init__.py
+passplz.egg-info/PKG-INFO
+passplz.egg-info/SOURCES.txt
+passplz.egg-info/dependency_links.txt
+passplz.egg-info/top_level.txt

@@ -1,0 +1,4 @@
+#!/Users/davidgu/.virtualenvs/bpython/bin/python
+
+import passplz
+print(passplz.generate_password())
