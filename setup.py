@@ -1,7 +1,7 @@
 from setuptools import setup
 
 setup(name='passplz',
-      version='0.1.1',
+      version='1.33.7',
       description='A simple password generator',
       url='http://github.com/davoclavo/passplz',
       author='David Gomez Urquiza',
