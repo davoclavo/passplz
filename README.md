@@ -12,6 +12,9 @@ passplz
 │   ├── __init__.py
 │   └── tests
 │       └── __init__.py
+├── .gitignore
+├── .travis.yml
+├── README.md
 ├── setup.cfg
 └── setup.py
 ```
