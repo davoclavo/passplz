@@ -193,7 +193,6 @@ README.md
     git clone https://github.com/davoclavo/passplz.git
     cd passplz
     python setup.py install
-    pip install -r dev-requirements.txt
     ```
 
 ~~~
