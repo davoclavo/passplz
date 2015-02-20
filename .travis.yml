@@ -9,7 +9,7 @@ deploy:
   provider: pypi
   user: davoclavo
   password:
-    secure: nZV3cFcRVRgPhBO9LkBSpbSA0q/2YZZ+t774giYfK5cN1wrRqKXX0mqvuqOZTUS+MLYaQXGW22YByetIH83l+amWjd8uUxlo8P95xY+Ww9Wr34plLgW8w/YD1yNKnw3NyBrKIDQARoLLdAFpZO2MaRGWCIdNNPXAyh8VQ7tcJsw=
+    secure: WNU2dilyc7/QxnOeIR3bX1G8Q4BUdUwESa3GJWlnh9L0wDdzLSbVMn39EwAw7b7yPFJ5y3ZiqIgldt8Y/eaUbX9rBdax0xx+/gmrnv/9XoYp5eWCKYCoDvrDf2wz6ZKdeoVl56lpWyXVIklzdEnoh/D3i+GRIqRn3rwZb80e5F0=
 install:
 - python setup.py install
 - pip install coveralls
