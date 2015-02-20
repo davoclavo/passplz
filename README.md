@@ -119,11 +119,10 @@ deploy:
   password:
     secure: ib4iaqycgcF3ijSC...
 install:
-  - pip install .
-  - pip install -r dev-requirements.txt
+  - python setup.py install
   - pip install coveralls
 script: 
-  - PYTHONPATH=. nose2 -v --with-cov
+  - python setup.py nosetests
 after_success: coveralls
 ```
 
