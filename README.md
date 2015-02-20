@@ -1,3 +1,24 @@
+PASSPLZ
+=======
+
+A barebones 16 character long password generator.
+
+Installation
+------------
+
+```
+pip install passplz
+```
+
+Usage
+-----
+
+```sh
+$ passplz
+=> dc7c5e5260644ce4
+```
+
+
 Deploy your Python Package 101
 ==============================
 
