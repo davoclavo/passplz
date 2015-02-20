@@ -67,10 +67,8 @@ Deploying to PyPI
 
   1. Create a PyPI account
   2. Register your package:
-    - `python setup.py register -r pypitest`
     - `python setup.py register -r pypi`
   3. Upload your package:
-    - `python setup.py sdist upload -r pypitest`
     - `python setup.py sdist upload -r pypi`
   4. Remember to bump versions if a new version is deployed
 
