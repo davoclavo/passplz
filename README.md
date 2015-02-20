@@ -1,5 +1,9 @@
 PASSPLZ
 =======
+[![](https://travis-ci.org/davoclavo/passplz.svg?branch=master)](https://travis-ci.org/davoclavo/passplz)
+[![](https://img.shields.io/coveralls/davoclavo/passplz.svg)](https://coveralls.io/r/davoclavo/passplz)
+[![](https://img.shields.io/pypi/v/passplz.svg)](https://pypi.python.org/pypi/passplz)
+[![](https://img.shields.io/badge/codesize-micro-blue.svg)](http://static.fjcdn.com/pictures/Tiny_4675eb_1456909.jpg)
 
 A barebones 16 character long password generator.
 
@@ -18,6 +22,8 @@ $ passplz
 => dc7c5e5260644ce4
 ```
 
+----
+Built in [Hacker School](http://hackerschool.com) for the workshop:
 
 Deploy your Python Package 101
 ==============================
