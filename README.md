@@ -57,10 +57,6 @@ setup(name='passplz',
   * Useful for "private applications", such as a webapp that won't be pushed to PyPI
   * I use it for development dependencies (such as test dependencies), but would be way cooler to have it all in `setup.py` and `setup.cfg
 
-    ```
-    nose2[coverage-plugin]
-    vcrpy
-    ```
 
 
 Deploying to PyPI
@@ -161,14 +157,14 @@ README.md
     From pip
 
     ```
-    pip install vinepy
+    pip install passplz
     ```
 
     From source
 
     ```
-    git clone https://github.com/davoclavo/vinepy.git
-    cd vinepy
+    git clone https://github.com/davoclavo/passplz.git
+    cd passplz
     python setup.py install
     pip install -r dev-requirements.txt
     ```
@@ -176,15 +172,15 @@ README.md
 ~~~
 
   * Add badges (shields) using [shields.io](http://shields.io/)
-    - [![](https://travis-ci.org/davoclavo/vinepy.svg?branch=master)](https://travis-ci.org/davoclavo/vinepy)
-    - [![](https://img.shields.io/coveralls/davoclavo/vinepy.svg)](https://coveralls.io/r/davoclavo/vinepy)
-    - [![](https://img.shields.io/pypi/v/vinepy.svg)](https://pypi.python.org/pypi/vinepy)
+    - [![](https://travis-ci.org/davoclavo/passplz.svg?branch=master)](https://travis-ci.org/davoclavo/passplz)
+    - [![](https://img.shields.io/coveralls/davoclavo/passplz.svg)](https://coveralls.io/r/davoclavo/passplz)
+    - [![](https://img.shields.io/pypi/v/passplz.svg)](https://pypi.python.org/pypi/passplz)
     - [![](https://img.shields.io/badge/coolness-ultrasupercool-blue.svg)](http://i.imgur.com/oJ6ZZf8.gif)
 
 ~~~
-[![](https://travis-ci.org/davoclavo/vinepy.svg?branch=master)](https://travis-ci.org/davoclavo/vinepy)
-[![](https://img.shields.io/coveralls/davoclavo/vinepy.svg)](https://coveralls.io/r/davoclavo/vinepy)
-[![](https://img.shields.io/pypi/v/vinepy.svg)](https://pypi.python.org/pypi/vinepy)
+[![](https://travis-ci.org/davoclavo/passplz.svg?branch=master)](https://travis-ci.org/davoclavo/passplz)
+[![](https://img.shields.io/coveralls/davoclavo/passplz.svg)](https://coveralls.io/r/davoclavo/passplz)
+[![](https://img.shields.io/pypi/v/passplz.svg)](https://pypi.python.org/pypi/passplz)
 [![](https://img.shields.io/badge/coolness-ultrasupercool-blue.svg)](http://i.imgur.com/oJ6ZZf8.gif)
 ~~~
 
@@ -194,3 +190,4 @@ Useful references
 -----------------
 
   * [How To Package Your Python Code](http://www.scotttorborg.com/python-packaging/index.html)
+  * [Python Packaging User Guide](https://packaging.python.org/en/latest/)
