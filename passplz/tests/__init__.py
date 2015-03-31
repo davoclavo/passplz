@@ -14,3 +14,10 @@ class TestPasswordy(TestCase):
         """
         password = passplz.generate_password()
         self.assertEqual(16, len(password))
+
+    def test_length_35(self):
+        """
+        Test if generation of 35 character long passwords work.
+        """
+        password = passplz.generate_password(35)
+        self.assertEqual(35, len(password))
