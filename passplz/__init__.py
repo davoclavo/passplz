@@ -21,7 +21,7 @@ else:
 def generate_password(password_length=16):
     """Generate a random password of length ``password_length``."""
     random_string = ""
-    while len(random_string) < password_length + 4*(password_length/16.0):
-        random_string += str(uuid4())
-    random_password = random_string.replace('-', '')[:password_length]
+    while len(random_string) < password_length:
+        random_string += uuid4().hex
+    random_password = random_string[:password_length]
     return random_password
