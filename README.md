@@ -1,6 +1,6 @@
 PASSPLZ
 =======
-[![](https://travis-ci.org/davoclavo/passplz.svg?branch=master)](https://travis-ci.org/davoclavo/passplz)
+[![](https://img.shields.io/travis/davoclavo/passplz.svg)](https://travis-ci.org/davoclavo/passplz)
 [![](https://img.shields.io/coveralls/davoclavo/passplz.svg)](https://coveralls.io/r/davoclavo/passplz)
 [![](https://img.shields.io/pypi/v/passplz.svg)](https://pypi.python.org/pypi/passplz)
 [![](https://img.shields.io/badge/codesize-micro-blue.svg)](http://static.fjcdn.com/pictures/Tiny_4675eb_1456909.jpg)
@@ -198,18 +198,18 @@ README.md
 ~~~
 
   * Add badges (shields) using [shields.io](http://shields.io/)
-    - [![](https://travis-ci.org/davoclavo/passplz.svg?branch=master)](https://travis-ci.org/davoclavo/passplz)
+    - [![](https://img.shields.io/travis/davoclavo/passplz.svg)](https://travis-ci.org/davoclavo/passplz)
     - [![](https://img.shields.io/coveralls/davoclavo/passplz.svg)](https://coveralls.io/r/davoclavo/passplz)
     - [![](https://img.shields.io/pypi/v/passplz.svg)](https://pypi.python.org/pypi/passplz)
     - [![](https://img.shields.io/badge/coolness-ultrasupercool-blue.svg)](http://i.imgur.com/oJ6ZZf8.gif)
 
 ~~~
-[![](https://travis-ci.org/davoclavo/passplz.svg?branch=master)](https://travis-ci.org/davoclavo/passplz)
+[![](https://img.shields.io/travis/davoclavo/passplz.svg)](https://travis-ci.org/davoclavo/passplz)
 [![](https://img.shields.io/coveralls/davoclavo/passplz.svg)](https://coveralls.io/r/davoclavo/passplz)
 [![](https://img.shields.io/pypi/v/passplz.svg)](https://pypi.python.org/pypi/passplz)
 [![](https://img.shields.io/badge/coolness-ultrasupercool-blue.svg)](http://i.imgur.com/oJ6ZZf8.gif)
 ~~~
-
+https://img.shields.io/travis/joyent/node.svg
 
 
 Useful references
@@ -217,3 +217,6 @@ Useful references
 
   * [How To Package Your Python Code](http://www.scotttorborg.com/python-packaging/index.html)
   * [Python Packaging User Guide](https://packaging.python.org/en/latest/)
+  * [Cookiecutter](https://github.com/audreyr/cookiecutter)
+  * [Cookiecutter-pypackage](https://github.com/audreyr/cookiecutter-pypackage)
+  * [PyPI release checklist](https://gist.github.com/audreyr/5990987)
